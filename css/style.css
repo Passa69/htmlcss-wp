@@ -4,9 +4,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    width: 80%;
-    margin: 10px auto;
     font-family: 'Montserrat', sans-serif;
+}
+
+#firstpage {
+    width: 70%;
+    margin: 10px auto;
 }
 
 /* header */
@@ -14,10 +17,11 @@
 header img {
     height: 70px;
     width: 175px;
+    margin-left: 5%;
 }
 
 #menu {
-    margin-left: 0;
+    margin-left: 5%;
 }
 
 #menu li{
@@ -30,12 +34,13 @@ header img {
 /* main */
 
 /* intestazione */
-
 #Jumbotron {
-    /* regole debug */
-    background-color: yellow;
-    height: 300px;
-    width: 100%;
+    height: 400px;
+}
+
+#Jumbotron img{
+    width: 80%;
+    margin: 10px 5%;
 }
 
 /* corpo */
