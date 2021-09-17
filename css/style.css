@@ -17,11 +17,11 @@
 header img {
     height: 70px;
     width: 175px;
-    margin-left: 5%;
+    margin-left: 10%;
 }
 
 #menu {
-    margin-left: 5%;
+    margin-left: 10%;
 }
 
 #menu li{
@@ -36,20 +36,36 @@ header img {
 /* intestazione */
 #Jumbotron {
     height: 400px;
+    margin-bottom: 20px;
+    position: relative;
 }
 
+
 #Jumbotron img{
+    height: 400px;
     width: 80%;
-    margin: 10px 5%;
+    margin: 10px 10%;
+}
+
+.imgtitle {
+    position: absolute;
+    left: 20px;
+    width: 50%;
+    margin: 10px 10%;
+}
+
+.big {
+    bottom: 50px;
+}
+
+.small {
+    bottom: 10px;
 }
 
 /* corpo */
 
 #container {
-    /* regole debug */
-    background-color: blue;
-    height: 500px;
-    width: 100%;
+    margin: 10px 10%;
 }
 
 /* corpo, posizionamento */
@@ -60,10 +76,7 @@ header img {
 }
 
 .head {
-    /* regole debug */
-    height: 80px;
-    width: 100%;
-    background-color: lightblue;
+
 }
 
 .widget1 {
