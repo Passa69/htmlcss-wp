@@ -66,6 +66,7 @@ header img {
 
 #container {
     margin: 10px 10%;
+    margin-bottom: 25px;
 }
 
 /* corpo, posizionamento */
@@ -112,7 +113,10 @@ header img {
 /* footer */
 
 footer {
-    /* regole debug */
-    height: 50px;
-    background-color: purple;
+    margin: auto 40%;
+}
+
+#heart {
+    color: red;
+    font-size: 15px;
 }
