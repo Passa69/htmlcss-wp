@@ -6,16 +6,25 @@
     box-sizing: border-box;
     width: 80%;
     margin: 10px auto;
+    font-family: 'Montserrat', sans-serif;
 }
-
-
 
 /* header */
 
-header {
-    /* regole debug */
-    height: 100px;
-    background-color: rgb(255, 124, 146);
+header img {
+    height: 70px;
+    width: 175px;
+}
+
+#menu {
+    margin-left: 0;
+}
+
+#menu li{
+    list-style-type: none;
+    display: inline;
+    margin-right: 10px;
+    font-size: 17px;
 }
 
 /* main */
