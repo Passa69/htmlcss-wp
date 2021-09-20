@@ -45,6 +45,7 @@ header img {
     height: 400px;
     width: 80%;
     margin: 10px 10%;
+    object-fit: cover;
 }
 
 .imgtitle {
